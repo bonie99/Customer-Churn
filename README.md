@@ -22,11 +22,12 @@ Conclusion
 # data cleaning and preparation
 - The data was imported and evaluated, followed by exploratory data analysis (EDA) for deeper insight. There were no missing values or duplicate entries. All categorical features were transformed to allow for one-hot encoding, making the data suitable for modeling. Additionally, the numerical features were normalized to standardize them and enhance model performance.S
 # data visualization
+- the following visualization show percentange of churn and nun churn by international plan vaoice mail plan and  class imbalnce 
 ![alt text](images/image.png)
 ![alt text](images/image1.png)
 ![alt text](images/image2.png)
 # modelling
-- The dataset was divided into training and test sets, with the training set used for model fitting and the test set for model evaluation. A baseline model was developed using Logistic Regression, while additional models included  Decision Trees and Random Forest. The modeling process involved optimizing performance through hyperparameter tuning and feature importance selection to identify the best-performing model.
+- The dataset was divided into training and test sets, with the training set used for model fitting and the test set for model evaluation. A baseline model was developed using Logistic Regression, while additional models included  Decision Trees and Random Forest. The modeling process involved optimizing performance through hyperparameter tuning to identify the best-performing model.
 # Evaluation
 - from the difrent model i used that is logistic regretion,decision tree  and random forest model i found that  the best model was  random forest model with roc score:0.92
 # conclusion
